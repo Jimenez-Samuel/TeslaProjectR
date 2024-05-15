@@ -1,6 +1,6 @@
-import { TitleZone } from "./Title.jsx"
-import { Span } from "./Span.jsx"
-import { ButttonBlack } from "./buttons.jsx"
+import { TitleZone } from "Title.jsx"
+import { Span } from "Span.jsx"
+import { ButttonBlack } from "buttons.jsx"
 
 export function SolarZone ({ background, title, spanContent }) {
   return (

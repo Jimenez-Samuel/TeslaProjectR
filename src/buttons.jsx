@@ -1,4 +1,4 @@
-import './buttons.css'
+import 'buttons.css'
 
 export function ButttonTransparent ({ buttonText }) {
   return (

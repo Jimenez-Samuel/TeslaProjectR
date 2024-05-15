@@ -1,7 +1,7 @@
-import { ButttonTransparent } from './buttons.jsx'
-import { Span } from './Span.jsx'
-import './FirstZone.css'
-import { TitleZone } from './Title.jsx'
+import { ButttonTransparent } from 'buttons.jsx'
+import { Span } from 'Span.jsx'
+import 'FirstZone.css'
+import { TitleZone } from 'Title.jsx'
 
 export function FirstZone ({ backgroundVideo, spanContent }) {
   return (
