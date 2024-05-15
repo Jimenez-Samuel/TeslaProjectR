@@ -1,6 +1,7 @@
 {
   "name": "teslaprojectr",
   "private": true,
+  "homepage": "https://jimenez-samuel.github.io/TeslaProjectR.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
