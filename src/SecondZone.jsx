@@ -1,7 +1,7 @@
 import { BaseA } from "./BaseA.jsx";
 import { TitleZone } from "./Title.jsx";
 import { ButttonWhite, ButttonBlack } from "./buttons.jsx";
-import 'SecondZone.css'
+import './SecondZone.css'
 
 export function SecondZone({ background }) {
   return (
