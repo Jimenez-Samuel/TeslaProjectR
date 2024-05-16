@@ -1,4 +1,4 @@
-import 'Title.css'
+import './Title.css'
 
 export function TitleZone ({ titleContent, titleColor }) {
   return (

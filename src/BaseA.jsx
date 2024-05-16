@@ -1,4 +1,4 @@
-import 'BaseA.css'
+import './BaseA.css'
 
 export function BaseA ({ Acolor, disabled }) {
   return (

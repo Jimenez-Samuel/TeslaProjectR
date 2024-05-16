@@ -1,5 +1,5 @@
-import { TitleZone } from "Title.jsx"
-import { ButttonWhite } from "buttons.jsx"
+import { TitleZone } from "./Title.jsx"
+import { ButttonWhite } from "./buttons.jsx"
 
 export function ChargeZone ({ background, title, spanContent }) {
   return (

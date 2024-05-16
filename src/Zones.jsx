@@ -1,6 +1,6 @@
-import { TitleZone } from "Title.jsx"
-import { BaseA } from "BaseA.jsx"
-import { ButttonWhite, ButttonBlack } from "buttons.jsx"
+import { TitleZone } from "./Title.jsx"
+import { BaseA } from "./BaseA.jsx"
+import { ButttonWhite, ButttonBlack } from "./buttons.jsx"
 
 export function Zone ({ background, title, baseA }) {
   return (
