@@ -5,7 +5,7 @@ import './SecondZone.css'
 
 export function SecondZone({ background }) {
   return (
-    <main className="container" style={{backgroundImage: `url('${background}')`}} data-header-color='black'>
+    <main className="container" style={{backgroundImage: `url('${background}')`}} data-header-color={'black'}>
       <div className="content">
         <div className="titleContainer">
           <TitleZone titleColor={'black'} titleContent={'Model Y'} />

@@ -5,8 +5,8 @@ import { TitleZone } from './Title.jsx'
 
 export function FirstZone ({ backgroundVideo, spanContent }) {
   return (
-    <main className="container" data-header-color='white'>
-      <div className="content">
+    <main className="container" id='firstZone' data-header-color={'white'}>
+      <div className="content"> 
         <TitleZone titleColor={'white'} titleContent={'Disfrute de Tesla'}/>
         <Span spanContent={spanContent} spanColor={'white'}/>
       

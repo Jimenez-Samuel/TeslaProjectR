@@ -11,13 +11,27 @@ import background6 from './assets/Accesories.avif'
 import { SolarZone } from './SolarZone.jsx'
 import { ChargeZone } from './ChargeZone.jsx'
 import './App.css'
-function App() {
+import React from 'react'
+import { useInView } from 'react-intersection-observer'
+
+export default function App() {
+
+  const [active, setActive] = React.useState(false)
+  const {ref, inView} = useInView({
+    threshold: 0.9,
+  });
+
+  React.useEffect(() => {
+    if(inView){
+      setActive(true);
+    }
+  }, [inView])
   return (
     <>
-      <Header />
+      <Header isActive={`${inView ? '' : 'active'}`}/>
       <main className="main">
-        <div className="zoneContainer">
-          <FirstZone backgroundVideo={Video} titleContent={'Disfrute de Tesla'} spanContent={'Programe una prueba de conducción hoy mismo'}/>
+        <div className="zoneContainer" ref={ref}>
+          <FirstZone backgroundVideo={Video} titleContent={'Disfrute de Tesla'} spanContent={'Programe una prueba de conducción hoy mismo'} />
         </div>
         <div className="zoneContainer">
           <SecondZone background={background1}/>
@@ -42,5 +56,3 @@ function App() {
     </>
   )
 }
-
-export default App

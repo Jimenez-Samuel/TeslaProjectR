@@ -4,7 +4,7 @@ import { ButttonWhite, ButttonBlack } from "./buttons.jsx"
 
 export function Zone ({ background, title, baseA }) {
   return (
-    <main className="container" style={{backgroundImage: `url('${background}')`}} data-header-color='black'>
+    <main className="container" style={{backgroundImage: `url('${background}')`}} data-header-color={'black'}>
       <div className="content">
         <div className="titleContainer">
           <TitleZone titleContent={title} titleColor={'black'}/>
